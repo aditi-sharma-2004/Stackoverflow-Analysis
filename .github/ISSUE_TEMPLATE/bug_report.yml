@@ -1,65 +1,38 @@
-name: "Bug Report 🐛"
-description: "File a bug report to help improve our project"
+name: Bug Report 🐛
+about: File a bug report to help improve our project
 title: "[BUG] "
 labels: bug
-assignees: []
+assignees: 
 
-body:
-  - type: checkboxes
+sections:
+  - name: Is there an existing issue for this? 🔍
+    description: Please search to see if an issue already exists for the bug you encountered. 
+    searched: I have searched the existing issues.
+
+  - name: What happened? 🚨
+    description: A concise description of what you're experiencing.
+    additional_information: |-
+      Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue.
+
+  - name: Add Screenshots 📸
+    description: Add sufficient screenshots to explain your issue.
+
+  - name: What browser are you seeing the problem on? 🌐
     options:
-      - name: "Is there an existing issue for this? 🔍"
-        description: "Please search to see if an issue already exists for the bug you encountered."
-        required: true
-        checked: false
-        enabled: true
-        hidden: false
-      - name: "I have searched the existing issues."
+      - Chrome
+      - Firefox
+      - Safari
+      - Edge
+      - Other (please specify): ______________
 
-  - type: textarea
-    name: "What happened? 🚨"
-    description: "A concise description of what you're experiencing."
-    required: true
-    checked: false
-    enabled: true
-    hidden: false
+  - name: I Agree to follow this project's Code of Conduct ✔️
+    description: By filing this issue, I agree to abide by this project's Code of Conduct.
+  
+  - name: I'm a first-time contributor 🌟
+    description: Include this if you're a first-time contributor and interested in working on this issue.
 
-  - type: textarea
-    name: "Add Screenshots 📸"
-    description: "Add sufficient screenshots to explain your issue."
-    required: false
-    checked: false
-    enabled: true
-    hidden: false
-
-  - type: checkboxes
+  - name: Record 3 things at last
     options:
-      - name: "What browser are you seeing the problem on? 🌐"
-        description: "Select the appropriate browser from the options below."
-        required: true
-        checked: false
-        enabled: true
-        hidden: false
-      - name: "Chrome"
-      - name: "Firefox"
-      - name: "Safari"
-      - name: "Edge"
-      - name: "Other (please specify): ______________"
-
-  - type: checkbox
-    name: "I Agree to follow this project's Code of Conduct ✔️"
-    description: "By filing this issue, I agree to abide by this project's Code of Conduct."
-    required: true
-    checked: false
-    enabled: true
-    hidden: false
-
-  - type: checkboxes
-    options:
-      - name: "I'm a first-time contributor 🌟"
-        description: "I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue."
-        required: false
-        checked: false
-        enabled: true
-        hidden: false
-      - name: "I'm a SSOC partz contributor"
-      - name: "I want to work on this issue"
+      - I Agree to follow this project's Code of Conduct
+      - I'm a SSOC partz contributor
+      - I want to work on this issue
