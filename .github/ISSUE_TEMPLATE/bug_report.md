@@ -1,38 +1,39 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Bug Report 🐛
+about: File a bug report to help improve our project
+title: "[BUG] "
+labels: bug
+assignees: 
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Is there an existing issue for this? 🔍
+Please search to see if an issue already exists for the bug you encountered. 
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+I have searched the existing issues.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## What happened? 🚨
+A concise description of what you're experiencing.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Add Screenshots 📸
+Add sufficient screenshots to explain your issue.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## What browser are you seeing the problem on? 🌐
+Select the appropriate browser from the options below:
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- [ ] Chrome
+- [ ] Firefox
+- [ ] Safari
+- [ ] Edge
+- [ ] Other (please specify): ______________
 
-**Additional context**
-Add any other context about the problem here.
+## I Agree to follow this project's Code of Conduct ✔️
+By filing this issue, I agree to abide by this project's [Code of Conduct](link_to_code_of_conduct).
+
+## I'm a first-time contributor 🌟
+I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue.
+
+## Record 3 things at last
+- [ ] I Agree to follow this project's Code of Conduct
+- [ ] I'm a SSOC partz contributor
+- [ ] I want to work on this issue
