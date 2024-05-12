@@ -1,38 +1,73 @@
-name: "Bug Report 🐛"
-about: "File a bug report to help improve our project"
-title: "[BUG] "
-labels: 
+---
+name: Bug report
+description: Create a bug report
+labels:
   - bug
-assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Super-Linter version
+      description: |
+        Super-Linter version where you observed this issue
+      placeholder: |
+          vX.Y.Z
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: |
+        Copy and paste any relevant log output.
+        This will be automatically formatted into code, so no need for backticks.
+        Enable debug logging, either on GitHub Actions, or when running locally.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: |
+        Steps to reproduce the issue.
+        To speed up the triaging of your request, reproduce the issue running
+        Super-Linter locally: https://github.com/super-linter/super-linter/blob/main/docs/run-linter-locally.md
+      placeholder: |
+        1. In this environment...
+        1. With this config...
+        1. Run '...'
+        1. See error...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
 
-sections:
-  - name: "What happened? 🚨"
-    description: "A concise description of what you're experiencing."
-
-  - name: "Additional Information ℹ️"
-    description: "Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue."
-
-  - name: "Add Screenshots 📸"
-    description: "Add sufficient screenshots to explain your issue."
-
-  - name: "What browser are you seeing the problem on? 🌐"
-    options:
-      - "Chrome"
-      - "Firefox"
-      - "Safari"
-      - "Edge"
-      - "Other (please specify): ______________"
-
-  - name: "I Agree to follow this project's Code of Conduct ✔️"
-    description: "By filing this issue, I agree to abide by this project's Code of Conduct."
-  
-  - name: "I'm a first-time contributor 🌟"
-    description: "Include this if you're a first-time contributor and interested in working on this issue."
-
-  - name: "Record 3 things at last"
-    options:
-      - "I Agree to follow this project's Code of Conduct"
-      - "I'm a SSOC partz contributor"
-      - "I want to work on this issue"
-
-placeholder_content: "Please fill in the required fields to report the bug."
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
