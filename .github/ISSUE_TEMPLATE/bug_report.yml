@@ -1,38 +1,38 @@
-name: Bug Report 🐛
-about: File a bug report to help improve our project
-title: "[BUG] "
-labels: bug
-assignees: 
+bug_report_template:
+  name: "Bug Report 🐛"
+  description: "File a bug report to help improve our project"
+  title: "[BUG] "
+  labels: 
+    - bug
+  assignees: []
 
-sections:
-  - name: Is there an existing issue for this? 🔍
-    description: Please search to see if an issue already exists for the bug you encountered. 
-    searched: I have searched the existing issues.
+  about: 
+    description: "A concise description of what you're experiencing."
 
-  - name: What happened? 🚨
-    description: A concise description of what you're experiencing.
-    additional_information: |-
-      Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue.
+  additional_information: 
+    description: "Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue."
 
-  - name: Add Screenshots 📸
-    description: Add sufficient screenshots to explain your issue.
+  screenshots: 
+    description: "Add sufficient screenshots to explain your issue."
 
-  - name: What browser are you seeing the problem on? 🌐
+  browser: 
+    description: "What browser are you seeing the problem on?"
     options:
-      - Chrome
-      - Firefox
-      - Safari
-      - Edge
-      - Other (please specify): ______________
+      - "Chrome"
+      - "Firefox"
+      - "Safari"
+      - "Edge"
+      - "Other (please specify): ______________"
 
-  - name: I Agree to follow this project's Code of Conduct ✔️
-    description: By filing this issue, I agree to abide by this project's Code of Conduct.
-  
-  - name: I'm a first-time contributor 🌟
-    description: Include this if you're a first-time contributor and interested in working on this issue.
+  agree_code_of_conduct: 
+    description: "By filing this issue, I agree to abide by this project's Code of Conduct."
 
-  - name: Record 3 things at last
+  first_time_contributor: 
+    description: "Include this if you're a first-time contributor and interested in working on this issue."
+
+  record_3_things: 
+    description: "Record 3 things at last"
     options:
-      - I Agree to follow this project's Code of Conduct
-      - I'm a SSOC partz contributor
-      - I want to work on this issue
+      - "I Agree to follow this project's Code of Conduct"
+      - "I'm a SSOC partz contributor"
+      - "I want to work on this issue"
