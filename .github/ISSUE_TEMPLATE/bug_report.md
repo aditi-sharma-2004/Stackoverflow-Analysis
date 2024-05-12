@@ -17,8 +17,9 @@ A concise description of what you're experiencing.
 
 <details>
 <summary>Additional Information ℹ️</summary>
-  
-Add any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue.
+
+Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue.
+
 </details>
 
 ## Add Screenshots 📸
