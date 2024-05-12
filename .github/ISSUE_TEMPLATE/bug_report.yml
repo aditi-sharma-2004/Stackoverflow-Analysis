@@ -40,7 +40,7 @@ body:
         - label: Firefox
         - label: Safari
         - label: Edge
-        - label: Other (please specify): ______________
+        - label: Other (please specify): _ _ _ _ _ _ _ _ _
   - type: checkboxes
     attributes:
       label: Additional Options
