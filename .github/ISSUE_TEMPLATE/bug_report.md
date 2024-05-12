@@ -15,12 +15,9 @@ I have searched the existing issues.
 ## What happened? 🚨
 A concise description of what you're experiencing.
 
-<details>
-<summary>Additional Information ℹ️</summary>
-
-Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue.
-
-</details>
+<div style="border: 1px solid #ccc; padding: 10px;">
+This is a bordered box.
+</div>
 
 ## Add Screenshots 📸
 Add sufficient screenshots to explain your issue.
