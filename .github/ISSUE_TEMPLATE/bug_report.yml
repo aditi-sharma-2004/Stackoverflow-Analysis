@@ -5,39 +5,61 @@ labels: bug
 assignees: []
 
 body:
-  - name: "Is there an existing issue for this? 🔍"
-    description: "Please search to see if an issue already exists for the bug you encountered."
-    type: checkboxes
+  - type: checkboxes
     options:
-      - "I have searched the existing issues."
-  
-  - name: "What happened? 🚨"
+      - name: "Is there an existing issue for this? 🔍"
+        description: "Please search to see if an issue already exists for the bug you encountered."
+        required: true
+        checked: false
+        enabled: true
+        hidden: false
+      - name: "I have searched the existing issues."
+
+  - type: textarea
+    name: "What happened? 🚨"
     description: "A concise description of what you're experiencing."
-    type: textarea
-  
-  - name: "Add Screenshots 📸"
+    required: true
+    checked: false
+    enabled: true
+    hidden: false
+
+  - type: textarea
+    name: "Add Screenshots 📸"
     description: "Add sufficient screenshots to explain your issue."
-    type: textarea
-  
-  - name: "What browser are you seeing the problem on? 🌐"
-    description: "Select the appropriate browser from the options below."
-    type: checkboxes
+    required: false
+    checked: false
+    enabled: true
+    hidden: false
+
+  - type: checkboxes
     options:
-      - "Chrome"
-      - "Firefox"
-      - "Safari"
-      - "Edge"
-      - "Other (please specify): ______________"
-  
-  - name: "I Agree to follow this project's Code of Conduct ✔️"
+      - name: "What browser are you seeing the problem on? 🌐"
+        description: "Select the appropriate browser from the options below."
+        required: true
+        checked: false
+        enabled: true
+        hidden: false
+      - name: "Chrome"
+      - name: "Firefox"
+      - name: "Safari"
+      - name: "Edge"
+      - name: "Other (please specify): ______________"
+
+  - type: checkbox
+    name: "I Agree to follow this project's Code of Conduct ✔️"
     description: "By filing this issue, I agree to abide by this project's Code of Conduct."
-    type: checkbox
+    required: true
+    checked: false
+    enabled: true
+    hidden: false
+
+  - type: checkboxes
     options:
-      - "I Agree to follow this project's Code of Conduct"
-  
-  - name: "I'm a first-time contributor 🌟"
-    description: "I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue."
-    type: checkboxes
-    options:
-      - "I'm a SSOC partz contributor"
-      - "I want to work on this issue"
+      - name: "I'm a first-time contributor 🌟"
+        description: "I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue."
+        required: false
+        checked: false
+        enabled: true
+        hidden: false
+      - name: "I'm a SSOC partz contributor"
+      - name: "I want to work on this issue"
