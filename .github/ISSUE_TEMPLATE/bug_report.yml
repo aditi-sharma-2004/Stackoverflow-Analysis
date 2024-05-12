@@ -5,39 +5,39 @@ labels: bug
 assignees: 
 
 sections:
-  - name: Is there an existing issue for this? 🔍
-    description: Please search to see if an issue already exists for the bug you encountered.
+  - name: "Is there an existing issue for this? 🔍"
+    description: "Please search to see if an issue already exists for the bug you encountered."
     type: checkboxes
     items:
-      - name: I have searched the existing issues.
+      - name: "I have searched the existing issues."
   
-  - name: What happened? 🚨
-    description: A concise description of what you're experiencing.
+  - name: "What happened? 🚨"
+    description: "A concise description of what you're experiencing."
     type: textarea
   
-  - name: Add Screenshots 📸
-    description: Add sufficient screenshots to explain your issue.
+  - name: "Add Screenshots 📸"
+    description: "Add sufficient screenshots to explain your issue."
     type: textarea
   
-  - name: What browser are you seeing the problem on? 🌐
-    description: Select the appropriate browser from the options below.
+  - name: "What browser are you seeing the problem on? 🌐"
+    description: "Select the appropriate browser from the options below."
     type: checkboxes
     items:
-      - name: Chrome
-      - name: Firefox
-      - name: Safari
-      - name: Edge
-      - name: Other (please specify): ______________
+      - name: "Chrome"
+      - name: "Firefox"
+      - name: "Safari"
+      - name: "Edge"
+      - name: "Other (please specify): ______________"
   
-  - name: I Agree to follow this project's Code of Conduct ✔️
-    description: By filing this issue, I agree to abide by this project's Code of Conduct.
+  - name: "I Agree to follow this project's Code of Conduct ✔️"
+    description: "By filing this issue, I agree to abide by this project's Code of Conduct."
     type: checkboxes
     items:
-      - name: I Agree to follow this project's Code of Conduct
+      - name: "I Agree to follow this project's Code of Conduct"
   
-  - name: I'm a first-time contributor 🌟
-    description: I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue.
+  - name: "I'm a first-time contributor 🌟"
+    description: "I want to work on this issue. Include this if you're a first-time contributor and interested in working on this issue."
     type: checkboxes
     items:
-      - name: I'm a SSOC partz contributor
-      - name: I want to work on this issue
+      - name: "I'm a SSOC partz contributor"
+      - name: "I want to work on this issue"
