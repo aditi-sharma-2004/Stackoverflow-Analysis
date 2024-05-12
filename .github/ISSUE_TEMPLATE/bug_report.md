@@ -15,9 +15,10 @@ I have searched the existing issues.
 ## What happened? 🚨
 A concise description of what you're experiencing.
 
-<div style="border: 1px solid #ccc; padding: 10px;">
-This is a bordered box.
+<div style="background-color: #f0f0f0; padding: 10px;">
+    This is a box created using HTML in Markdown.
 </div>
+
 
 ## Add Screenshots 📸
 Add sufficient screenshots to explain your issue.
