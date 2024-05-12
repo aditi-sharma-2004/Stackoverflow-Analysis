@@ -1,22 +1,21 @@
-bug_report_template:
-  name: "Bug Report 🐛"
-  description: "File a bug report to help improve our project"
-  title: "[BUG] "
-  labels: 
-    - bug
-  assignees: []
+name: "Bug Report 🐛"
+about: "File a bug report to help improve our project"
+title: "[BUG] "
+labels: 
+  - bug
+assignees: []
 
-  about: 
+sections:
+  - name: "What happened? 🚨"
     description: "A concise description of what you're experiencing."
 
-  additional_information: 
+  - name: "Additional Information ℹ️"
     description: "Describe any additional information here, such as error messages, logs, or steps you've already tried to troubleshoot the issue."
 
-  screenshots: 
+  - name: "Add Screenshots 📸"
     description: "Add sufficient screenshots to explain your issue."
 
-  browser: 
-    description: "What browser are you seeing the problem on?"
+  - name: "What browser are you seeing the problem on? 🌐"
     options:
       - "Chrome"
       - "Firefox"
@@ -24,15 +23,16 @@ bug_report_template:
       - "Edge"
       - "Other (please specify): ______________"
 
-  agree_code_of_conduct: 
+  - name: "I Agree to follow this project's Code of Conduct ✔️"
     description: "By filing this issue, I agree to abide by this project's Code of Conduct."
-
-  first_time_contributor: 
+  
+  - name: "I'm a first-time contributor 🌟"
     description: "Include this if you're a first-time contributor and interested in working on this issue."
 
-  record_3_things: 
-    description: "Record 3 things at last"
+  - name: "Record 3 things at last"
     options:
       - "I Agree to follow this project's Code of Conduct"
       - "I'm a SSOC partz contributor"
       - "I want to work on this issue"
+
+placeholder_content: "Please fill in the required fields to report the bug."
